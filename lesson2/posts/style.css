@@ -1,0 +1,59 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+.post {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.post__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2a4771;
+    width: 100%;
+}
+.adv {
+    color: #dc143c;
+}
+.post__image img {
+    width: 100px;
+}
+.post__description {
+    text-align: justify;
+    margin: 10px 0;
+}
+.post__footer{
+    display: flex;
+}
+.post__like, .adv__buy {
+    padding: 5px 10px;
+    background: #f5f5dc;
+    color: #dc143c;
+    border-radius: 10px;
+    border: 1px solid #dc143c;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+.adv__buy {
+    font-size: 18px;
+    margin-left: 25px;
+}
+.adv__btn {
+    font-size: 18px;
+    color: #2a4771;
+    margin-left: 25px;
+}
+.post__like span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.post__like i {
+    font-size: 20px;
+}
