@@ -30,12 +30,12 @@ const es7 = () => {
     }
   }
   let Calcul = new CoolMath();
-  let x = Calcul.addNumbers(2, 2)
+  let x = Calcul.addNumbers(2, 2);
   let y = Calcul.multiplyNumbers("10", "2");
-  let z = Calcul.minusNumbers('ten', 2)
-  console.log('x', x)
-  console.log('y', y)
-  console.log('z', z)
+  let z = Calcul.minusNumbers('ten', 2);
+  console.log('x', x);
+  console.log('y', y);
+  console.log('z', z);
 
 };
 
