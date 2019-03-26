@@ -1,0 +1,43 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    background: #eee;
+}
+
+.notifer_app--container{
+    width: 600px;
+    background: #fff;
+    padding: 20px 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.notifier__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+.notifier__item{
+    flex-grow: 1;
+    margin-right: 2px;
+
+}
+.notifier__item > header > span{
+    margin-left: 5px;
+}
+.notifier__item > header{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+}
