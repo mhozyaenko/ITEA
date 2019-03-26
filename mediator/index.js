@@ -33,28 +33,26 @@ class Monitor extends Student {
   constructor(name) {
     super(name);
     this.monitor = 'monitor';
-    this.studentGroup = {};
-    this.professors = {};
+    this.studentGroup = [];
+    this.professor = {};
   }
 
   addToGroup(student) {
-    this.studentGroup[student.name] = student;
+    this.studentGroup.push(student);
     student.monitor = this;
     console.log(`Add new student '${student.name}'  to group`);
-    console.log('List or students:', this.studentGroup);
+    console.log('group', this.studentGroup);
   }
 
   addProfessor(professor) {
-    this.professors[professor.name] = professor;
+    this.professor = professor;
     professor.monitor = this;
-    console.log(`Add new professor '${professor.name}'`);
-    console.log('List or professors:', this.professors);
+    console.log(`Add professor '${this.professor.name}'`);
   }
 
   askProfessor(student, professor, question) {
     console.log(`${student.name} asks ${professor.name}: ${question}`);
     professor.answerTheQuestion(this, question);
-
   }
 }
 
