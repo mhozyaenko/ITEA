@@ -1,0 +1,29 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.wrap {
+    width: 400px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto;
+    border: 1px solid #000040;
+}
+.controls {
+    width: 100%;
+    margin-top: 20px;
+}
+h3 {
+    margin-left: 15px;
+}
+button {
+    padding: 5px 10px;
+    background: #fff;
+    color: #000040;
+    border: 1px solid #000040;
+}
